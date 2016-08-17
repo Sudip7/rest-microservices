@@ -5,7 +5,10 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
 		<!--<version>1.4.0.RELEASE</version>-->
+=======
+>>>>>>> 6d00510152a745f1123c66cba8d1690807d6d09c
 		<version>1.4.0.RELEASE</version>
 	</parent>
 
@@ -29,13 +32,15 @@
 
 	<dependencyManagement>
 		<dependencies>
+
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>Brixton.BUILD-SNAPSHOT</version>
+				<version>Brixton.SR4</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 
